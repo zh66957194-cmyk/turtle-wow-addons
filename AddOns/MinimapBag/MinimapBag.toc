@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: MinimapBag |cff7fff7f小地图收纳|r
+## Notes: 把小地图周围的插件按钮收进一个可展开的袋子里
+## Notes-zhCN: 把小地图周围的插件按钮收进一个可展开的袋子里
+## Version: 1.0.0
+## Author: local
+## SavedVariables: MinimapBagDB
+
+MinimapBag.lua

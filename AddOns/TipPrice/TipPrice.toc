@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: TipPrice |cff7fff7f物品价格|r
+## Notes: 鼠标提示显示物品单价/一组价格/当前数量价格
+## Notes-zhCN: 鼠标提示显示物品单价/一组价格/当前数量价格
+## Version: 1.0.0
+## Author: local
+
+TipPrice_Data.lua
+TipPrice.lua

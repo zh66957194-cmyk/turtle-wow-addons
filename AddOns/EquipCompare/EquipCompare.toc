@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: EquipCompare |cff7fff7f装备对比|r
+## Notes: 鼠标指向装备时，在提示框旁显示已装备的同部位物品
+## Notes-zhCN: 鼠标指向装备时，在提示框旁显示已装备的同部位物品
+## Version: 1.0.0
+## Author: local
+
+EquipCompare.lua

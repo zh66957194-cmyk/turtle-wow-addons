@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: ToTPlus |cff7fff7f目标链|r
+## Notes: 显示目标的目标 / 目标的目标的目标名字，点击可选中
+## Notes-zhCN: 显示目标的目标 / 目标的目标的目标名字，点击可选中
+## Version: 1.0.0
+## Author: local
+
+ToTPlus.lua

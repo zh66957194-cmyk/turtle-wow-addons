@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: UnitEnhance |cff7fff7f头像增强|r
+## Notes: 参考 Enigma Unit Frames 的功能，为头像/目标/宠物/小队添加数值显示
+## Notes-zhCN: 参考 Enigma Unit Frames 的功能，为头像/目标/宠物/小队添加数值显示
+## Version: 1.0.0
+## Author: local
+## SavedVariables: UnitEnhanceDB
+
+UnitEnhance.lua

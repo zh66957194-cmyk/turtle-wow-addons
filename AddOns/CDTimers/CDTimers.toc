@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: RangeColor |cff7fff7f距离着色|r
+## Notes: 超出射程的动作条技能图标变红（冷却数字由 ActionCooldownCount 负责）
+## Notes-zhCN: 超出射程的动作条技能图标变红（冷却数字由 ActionCooldownCount 负责）
+## Version: 1.1.0
+## Author: local
+
+CDTimers.lua
