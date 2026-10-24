@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: DBBrowser
+## Notes: In-game database browser (items / quests / creatures)
+## Author: local
+## Version: 1.0
+
+DBBrowser_Data.lua
+DBBrowser.lua

@@ -1,0 +1,21 @@
+## Interface: 11200
+## Title: WowCNInput
+## Title-zhCN: |CFF33AAFF[辅助]|R中文输入插件 |cff7fff7f<WowCNInput>|r
+## Author: Wigmox
+# x-release-please-start-version
+## Version: 0.2.0
+# x-release-please-end
+## Notes: Chinese Input Method
+## Notes-zhCN: WoW 中文输入插件
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: WowCNInputDB
+
+# 核心配置
+Core\Core.xml
+
+# 词库文件
+Dict\Dict.xml
+
+# UI 定义
+Core\UI.xml

@@ -12,7 +12,9 @@ AddOns/                 可直接放进 Interface\AddOns\ 使用
 ├─ UnitEnhance          头像增强（血量法力数值、经验条可选）
 ├─ ToTPlus              目标链显示（目标的目标 / 再一级，可点击）
 ├─ MinimapBag           小地图按钮收纳
-└─ CDTimers             超出射程的技能图标变红
+├─ CDTimers             超出射程的技能图标变红
+├─ DBBrowser            数据库浏览器（/wdb）
+└─ WowCNInput           中文输入法（第三方 GPL）
 
 Localization/           第三方插件的汉化补丁（覆盖对应文件）
 ├─ TurtleTweaks-zhCN
@@ -20,6 +22,15 @@ Localization/           第三方插件的汉化补丁（覆盖对应文件）
 └─ pfQuest-zhCN         （仅补丁片段，需追加到 locales.lua）
 ```
 
+### DBBrowser
+- `/wdb` 或 `/dbrowser` 打开物品/任务/NPC 数据库查询界面
+- 数据来自服务器 `twptr_world`（15,579 条物品 + 任务 + NPC）
+- 注意：**不能用 `/db`**，那是 pfQuest 的命令，会覆盖本插件
+
+### WowCNInput
+- 客户端内中文输入法（拼音），支持候选框、宏编辑、聊天输入
+- 本仓库版本为第三方项目（GPL），已剔除 `.github` 与文档图片，保留完整插件与字库
+- 用法：游戏内 `Ctrl+Space` 或点击小地图按钮切换
 ## 安装
 
 1. 把 `AddOns\` 下需要的插件文件夹整个复制到
@@ -77,4 +88,5 @@ Localization/           第三方插件的汉化补丁（覆盖对应文件）
 ## 许可
 
 自写插件（TipPrice / EquipCompare / UnitEnhance / ToTPlus / MinimapBag / CDTimers）可自由使用、修改、分发。
-`Localization/` 内是基于他人插件的汉化补丁，遵循原插件各自的许可。
+Localization/ 内是基于他人插件的汉化补丁，遵循原插件各自的许可。
+AddOns/WowCNInput/ 为第三方 GPL 项目，保留其 LICENSE，二次分发请遵循 GPL。
